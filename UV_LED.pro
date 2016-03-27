@@ -1,4 +1,4 @@
-update=Wednesday, March 16, 2016 'AMt' 03:37:37 AM
+update=Saturday, March 26, 2016 'PMt' 08:09:59 PM
 last_client=kicad
 [pcbnew]
 version=1
@@ -115,3 +115,13 @@ LibName68=ab2_transistor
 LibName69=ab2_uC
 LibName70=ab2_usb
 LibName71=ab2_xtal
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
