@@ -1,44 +1,7 @@
 EESchema Schematic File Version 2
+LIBS:UV_LED-rescue
+LIBS:74xgxx
 LIBS:74xx
-LIBS:switcher
-LIBS:adc-dac
-LIBS:analog-switches
-LIBS:atmel
-LIBS:bjt
-LIBS:can
-LIBS:capacitive
-LIBS:cmos4000
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:digpot
-LIBS:diode
-LIBS:display
-LIBS:fet
-LIBS:hc11
-LIBS:i2c
-LIBS:inductive
-LIBS:intel
-LIBS:interface
-LIBS:linear
-LIBS:memory
-LIBS:microchip
-LIBS:opto
-LIBS:periph
-LIBS:power
-LIBS:protection
-LIBS:regul
-LIBS:renesas
-LIBS:resist
-LIBS:supervisor
-LIBS:video
-LIBS:figaro
-LIBS:radio
-LIBS:automation
-LIBS:graphic
-LIBS:xilinx
-LIBS:UV_LED
-LIBS:switch-enc
 LIBS:ab2_7segment
 LIBS:ab2_audio
 LIBS:ab2_buffer
@@ -70,6 +33,139 @@ LIBS:ab2_transistor
 LIBS:ab2_uC
 LIBS:ab2_usb
 LIBS:ab2_xtal
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:analog-switches
+LIBS:arduino_shieldsNCL
+LIBS:atmel
+LIBS:audio
+LIBS:automation
+LIBS:bjt
+LIBS:brooktre
+LIBS:can
+LIBS:capacitive
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:custom
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:digpot
+LIBS:diode
+LIBS:DIP28
+LIBS:DIP30
+LIBS:display
+LIBS:ds3231n
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:FE
+LIBS:fet_driver
+LIBS:fet
+LIBS:figaro
+LIBS:fluid
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:HALL-TLE4935G
+LIBS:HALL-TLE4935L
+LIBS:hc11
+LIBS:i2c
+LIBS:inductive
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:jmp
+LIBS:Lattice
+LIBS:linear
+LIBS:lm1117
+LIBS:logo
+LIBS:LPC11xx_HVQFN33
+LIBS:lpcxpresso_1769_header
+LIBS:m-bed
+LIBS:maxim
+LIBS:mcp230xx
+LIBS:mech-switch
+LIBS:memory
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:microsd_attend_molex
+LIBS:microsd-molex
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opendous
+LIBS:opto
+LIBS:optoendstops
+LIBS:Oscillators
+LIBS:pca9685
+LIBS:periph
+LIBS:philips
+LIBS:pololu_a4988x
+LIBS:Power_Management
+LIBS:power-switches
+LIBS:power
+LIBS:powerint
+LIBS:protection
+LIBS:pspice
+LIBS:radio
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:renesas
+LIBS:resist
+LIBS:rfcom
+LIBS:RMC_connectors
+LIBS:RMC
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stepper_drivers
+LIBS:stm8
+LIBS:stm32
+LIBS:STM32F100_48
+LIBS:STM32F429 LQFP144
+LIBS:supertex
+LIBS:supervisor
+LIBS:switch-enc
+LIBS:switcher
+LIBS:switches
+LIBS:TC33X-2-103E
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:UV_LED-cache
 EELAYER 25 0
 EELAYER END
@@ -673,7 +769,7 @@ Text Label 2150 775  0    60   ~ 0
 Text Label 4925 900  0    60   ~ 0
 +5V
 $Comp
-L GND #PWR01
+L GND-RESCUE-UV_LED #PWR01
 U 1 1 56E95E4B
 P 1075 950
 F 0 "#PWR01" H 1075 700 50  0001 C CNN
@@ -845,7 +941,7 @@ F 3 "" H 5750 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232RL U1
+L FT232RL-RESCUE-UV_LED U1
 U 1 1 56F8DF31
 P 2050 3700
 F 0 "U1" H 2050 2800 60  0000 C CNN

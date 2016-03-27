@@ -1271,11 +1271,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4575 9100 4725
 Wire Wire Line
-	9250 5250 9125 5250
-Wire Wire Line
-	9125 5225 9125 5350
-Wire Wire Line
-	8425 5850 9225 5850
+	8000 5850 9225 5850
 Wire Wire Line
 	9100 5850 9100 6000
 Wire Wire Line
@@ -1290,17 +1286,8 @@ Wire Wire Line
 	9225 6300 9225 6200
 Connection ~ 9225 6200
 Connection ~ 8950 5550
-Wire Wire Line
-	8350 4575 8350 5425
 Connection ~ 9100 4575
-Wire Wire Line
-	6575 5325 8425 5325
-Wire Wire Line
-	8425 5325 8425 5850
 Connection ~ 9100 5850
-Wire Wire Line
-	6575 5225 9125 5225
-Connection ~ 9125 5250
 Wire Wire Line
 	2400 2375 5525 2375
 Wire Wire Line
@@ -1702,8 +1689,6 @@ Wire Wire Line
 Wire Wire Line
 	7075 4475 6575 4475
 Wire Wire Line
-	8350 5425 6575 5425
-Wire Wire Line
 	6575 4925 8525 4925
 Wire Wire Line
 	8525 4925 8525 4375
@@ -1851,4 +1836,21 @@ F 3 "" H 1450 7575 50  0000 C CNN
 $EndComp
 NoConn ~ 875  7600
 NoConn ~ 1250 7575
+Wire Wire Line
+	8350 4575 8350 5225
+Wire Wire Line
+	8350 5225 6575 5225
+Wire Wire Line
+	8000 5850 8000 5425
+Wire Wire Line
+	8000 5425 6575 5425
+Wire Wire Line
+	6575 5325 8775 5325
+Wire Wire Line
+	8775 5325 8775 5250
+Wire Wire Line
+	8775 5250 9250 5250
+Wire Wire Line
+	9125 5350 9125 5250
+Connection ~ 9125 5250
 $EndSCHEMATC
