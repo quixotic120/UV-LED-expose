@@ -3,7 +3,7 @@
   (general
     (links 150)
     (no_connects 0)
-    (area 74.168 48.2399 219.310001 158.10448)
+    (area 74.219999 50.089999 214.070001 157.555001)
     (thickness 1.6)
     (drawings 16)
     (tracks 688)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -68,8 +68,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010ff_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -2797,13 +2797,13 @@
   (gr_line (start 101.6 93.98) (end 186.69 93.98) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 101.6 125.095) (end 101.6 93.98) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 157.21 63.5) (end 157.21 64.786) (width 0.508) (layer F.Cu) (net 1) (status 400000))
-  (segment (start 150.681 65.786) (end 149.855 64.96) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11B2) (status 800000))
+  (segment (start 157.21 63.5) (end 157.21 64.786) (width 0.508) (layer F.Cu) (net 1))
+  (segment (start 150.681 65.786) (end 149.855 64.96) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11B2))
   (segment (start 156.21 65.786) (end 150.681 65.786) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11B1))
   (segment (start 157.21 64.786) (end 156.21 65.786) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11B0))
   (segment (start 148.844 63.246) (end 146.304 63.246) (width 0.508) (layer F.Cu) (net 1))
   (segment (start 146.304 63.246) (end 146.304 63.1825) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11AC))
-  (segment (start 149.855 64.96) (end 149.855 64.003) (width 0.508) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 149.855 64.96) (end 149.855 64.003) (width 0.508) (layer F.Cu) (net 1))
   (segment (start 149.098 63.246) (end 148.844 63.246) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11A3))
   (segment (start 149.855 64.003) (end 149.098 63.246) (width 0.508) (layer F.Cu) (net 1) (tstamp 56FB11A2))
   (segment (start 96.266 72.136) (end 96.266 70.866) (width 0.508) (layer F.Cu) (net 1))
